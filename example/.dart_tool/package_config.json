@@ -32,6 +32,12 @@
       "languageVersion": "2.18"
     },
     {
+      "name": "cross_file",
+      "rootUri": "file:///C:/Users/hp/AppData/Local/Pub/Cache/hosted/pub.flutter-io.cn/cross_file-0.3.4+1",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
       "name": "cupertino_icons",
       "rootUri": "file:///C:/Users/hp/AppData/Local/Pub/Cache/hosted/pub.flutter-io.cn/cupertino_icons-1.0.8",
       "packageUri": "lib/",
@@ -51,9 +57,9 @@
     },
     {
       "name": "file_picker",
-      "rootUri": "file:///C:/Users/hp/AppData/Local/Pub/Cache/hosted/pub.flutter-io.cn/file_picker-5.5.0",
+      "rootUri": "file:///C:/Users/hp/AppData/Local/Pub/Cache/hosted/pub.flutter-io.cn/file_picker-8.0.6",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "2.19"
     },
     {
       "name": "flex_color_picker",
@@ -137,7 +143,7 @@
       "name": "html_editor_enhanced",
       "rootUri": "../../",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.0"
     },
     {
       "name": "infinite_listview",
@@ -272,6 +278,12 @@
       "languageVersion": "3.3"
     },
     {
+      "name": "web",
+      "rootUri": "file:///C:/Users/hp/AppData/Local/Pub/Cache/hosted/pub.flutter-io.cn/web-0.5.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
       "name": "win32",
       "rootUri": "file:///C:/Users/hp/AppData/Local/Pub/Cache/hosted/pub.flutter-io.cn/win32-5.5.1",
       "packageUri": "lib/",
@@ -284,7 +296,7 @@
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2024-07-14T22:08:12.795679Z",
+  "generated": "2024-07-14T22:45:56.993849Z",
   "generator": "pub",
   "generatorVersion": "3.4.1",
   "flutterRoot": "file:///C:/flutter",

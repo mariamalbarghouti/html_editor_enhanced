@@ -1,0 +1,22 @@
+{
+    "sourceFile": "lib/src/html_editor_web.dart",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1720996073550,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1720996085521,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,10 +2,8 @@\n import 'package:html_editor_enhanced/src/widgets/html_editor_widget_web.dart';\r\n import 'package:flutter/foundation.dart';\r\n import 'package:flutter/material.dart';\r\n \r\n-import '../utils/options.dart';\r\n-\r\n /// HtmlEditor class for web\r\n class HtmlEditor extends StatelessWidget {\r\n   HtmlEditor({\r\n     Key? key,\r\n"
+                }
+            ],
+            "date": 1720996073550,
+            "name": "Commit-0",
+            "content": "import 'package:html_editor_enhanced/html_editor.dart';\r\nimport 'package:html_editor_enhanced/src/widgets/html_editor_widget_web.dart';\r\nimport 'package:flutter/foundation.dart';\r\nimport 'package:flutter/material.dart';\r\n\r\nimport '../utils/options.dart';\r\n\r\n/// HtmlEditor class for web\r\nclass HtmlEditor extends StatelessWidget {\r\n  HtmlEditor({\r\n    Key? key,\r\n    required this.controller,\r\n    this.callbacks,\r\n    this.htmlEditorOptions = const HtmlEditorOptions(),\r\n    this.htmlToolbarOptions = const HtmlToolbarOptions(),\r\n    this.otherOptions = const OtherOptions(),\r\n    this.plugins = const [],\r\n  }) : super(key: key);\r\n\r\n  /// The controller that is passed to the widget, which allows multiple [HtmlEditor]\r\n  /// widgets to be used on the same page independently.\r\n  final HtmlEditorController controller;\r\n\r\n  /// Sets & activates Summernote's callbacks. See the functions available in\r\n  /// [Callbacks] for more details.\r\n  final Callbacks? callbacks;\r\n\r\n  /// Defines options for the html editor\r\n  final HtmlEditorOptions htmlEditorOptions;\r\n\r\n  /// Defines options for the editor toolbar\r\n  final HtmlToolbarOptions htmlToolbarOptions;\r\n\r\n  /// Defines other options\r\n  final OtherOptions otherOptions;\r\n\r\n  /// Sets the list of Summernote plugins enabled in the editor.\r\n  final List<Plugins> plugins;\r\n\r\n  @override\r\n  Widget build(BuildContext context) {\r\n    if (kIsWeb) {\r\n      return HtmlEditorWidget(\r\n        key: key,\r\n        controller: controller,\r\n        callbacks: callbacks,\r\n        plugins: plugins,\r\n        htmlEditorOptions: htmlEditorOptions,\r\n        htmlToolbarOptions: htmlToolbarOptions,\r\n        otherOptions: otherOptions,\r\n        initBC: context,\r\n      );\r\n    } else {\r\n      return Text(\r\n          'Non-Flutter Web environment detected, please make sure you are importing package:html_editor_enhanced/html_editor.dart');\r\n    }\r\n  }\r\n}\r\n"
+        }
+    ]
+}
