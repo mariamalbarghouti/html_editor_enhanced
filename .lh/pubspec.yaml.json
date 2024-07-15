@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 2,
+            "activePatchIndex": 3,
             "patches": [
                 {
                     "date": 1720996039800,
@@ -16,6 +16,10 @@
                 {
                     "date": 1720997124298,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n version: 2.5.1\r\n homepage: https://github.com/tneotia/html-editor-enhanced\r\n \r\n environment:\r\n-  sdk: '>=3.12.0 <3.0.0'\r\n+  sdk: '>=3.0.0 <.0.0'\r\n   flutter: \">=3.0.0\"\r\n \r\n dependencies:\r\n   flutter:\r\n"
+                },
+                {
+                    "date": 1721044112670,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n dependencies:\r\n   flutter:\r\n     sdk: flutter\r\n   # webview plugin\r\n-  flutter_inappwebview: ^6.0.0\r\n+  flutter_inappwebview: 6.0.0\r\n   # plugin to get webview's visible fraction for keyboard height adjustment\r\n   visibility_detector: ^0.3.3\r\n   # plugin to get when the keyboard is hidden via back (Android)\r\n   # or \"done\" (iOS) to reset the editor's height\r\n"
                 }
             ],
             "date": 1720996039800,
